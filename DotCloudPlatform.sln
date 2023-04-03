@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotCloudPlatform.Panel", "DotCloudPlatform.Panel\DotCloudPlatform.Panel.csproj", "{66373A0B-DD29-45DF-8811-612AAA31DDA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Panel", "Panel", "{DB1D352B-7F92-4B17-A725-14D4F00B33FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CEFA7897-0B4E-4978-B83B-D563D98BBCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotCloudPlatform.Daemon", "DotCloudPlatform.Daemon\DotCloudPlatform.Daemon.csproj", "{846FF9D0-F879-4107-A3F6-07A83DE84E7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotCloudPlatform.Panel.Models", "DotCloudPlatform.Panel.Models\DotCloudPlatform.Panel.Models.csproj", "{272FC403-9117-4002-95E2-464B8C573DCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66373A0B-DD29-45DF-8811-612AAA31DDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66373A0B-DD29-45DF-8811-612AAA31DDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66373A0B-DD29-45DF-8811-612AAA31DDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66373A0B-DD29-45DF-8811-612AAA31DDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846FF9D0-F879-4107-A3F6-07A83DE84E7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846FF9D0-F879-4107-A3F6-07A83DE84E7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846FF9D0-F879-4107-A3F6-07A83DE84E7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846FF9D0-F879-4107-A3F6-07A83DE84E7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272FC403-9117-4002-95E2-464B8C573DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272FC403-9117-4002-95E2-464B8C573DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272FC403-9117-4002-95E2-464B8C573DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272FC403-9117-4002-95E2-464B8C573DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66373A0B-DD29-45DF-8811-612AAA31DDA1} = {DB1D352B-7F92-4B17-A725-14D4F00B33FA}
+		{846FF9D0-F879-4107-A3F6-07A83DE84E7E} = {CEFA7897-0B4E-4978-B83B-D563D98BBCA2}
+		{272FC403-9117-4002-95E2-464B8C573DCA} = {DB1D352B-7F92-4B17-A725-14D4F00B33FA}
+	EndGlobalSection
+EndGlobal
